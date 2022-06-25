@@ -6,6 +6,9 @@
   "scripts": {
     "lint": "eslint .",
     "dev": "nodemon --exec ts-node src/index.ts",
+    "tsc": "tsc",
+    "build": "tsc --build",
+    "clean": "tsc --build --clean",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
